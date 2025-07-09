@@ -1,0 +1,36 @@
+# Ignore pickle files
+*.pkl
+
+# Ignore CSV files over time (if you want)
+*.csv
+
+# Ignore any data or models folders
+/data/
+/models/
+
+# Ignore large files by extension
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore similarity score files
+similarity_scores.pkl
+
+# Ignore temporary files
+*.tmp
+*.log
+.DS_Store
